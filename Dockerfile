@@ -15,7 +15,7 @@ RUN set -ex \
     && apt-get install -y --no-install-recommends \
         ca-certificates \
         python3 python-is-python3 python3-pip \
-        postgresql-$PG_MAJOR-postgis-$POSTGIS_MAJOR=$POSTGIS_VERSION \
+        postgresql-$PG_MAJOR-postgis-$POSTGIS_MAJOR \
         postgresql-$PG_MAJOR-postgis-$POSTGIS_MAJOR-scripts \
         postgresql-$PG_MAJOR-pgtap \
         postgresql-$PG_MAJOR-partman \
